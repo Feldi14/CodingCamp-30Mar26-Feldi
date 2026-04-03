@@ -1,0 +1,88 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.balance-box {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.balance-box h2 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+/* BOX */
+.form-box, .list-box, .chart-box {
+  background: white;
+  padding: 15px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+/* INPUT BIAR RAPI */
+input, select {
+  width: 100%;
+  margin: 6px 0;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* LIST */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* DELETE BUTTON */
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
